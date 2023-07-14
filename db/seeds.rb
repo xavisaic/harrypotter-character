@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 require 'faker'
 
-10.times do
+50.times do
   Character.create(
     name: Faker::Movies::HarryPotter.character,
     location: Faker::Movies::HarryPotter.location,
